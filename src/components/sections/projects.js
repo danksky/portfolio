@@ -259,7 +259,7 @@ const Projects = ({ content }) => {
         >
           <h3 className="section-title">{sectionDetails.frontmatter.title}</h3>
           <div className="counter">
-            {visibleProject} / {projects.length}
+            {visibleProject + 1} / {projects.length}
           </div>
         </motion.div>
         <div className="projects">
